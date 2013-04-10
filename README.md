@@ -7,7 +7,7 @@ chatwork-allow-origin-proxy
 ------
 
 ```
-http://chatwork-allow-origin-proxy.herokuapp.com/v1/icon.json?url=http://path/to/image.jpg
+http://chatwork-allow-origin-proxy.herokuapp.com/v1/image.json?url=http://path/to/image.jpg
 ```
 
 注意点

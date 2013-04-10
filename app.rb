@@ -7,7 +7,7 @@ get '/' do
   'chatwork-allow-origin-proxy'
 end
 
-get '/v1/icon.json' do
+get '/v1/image.json' do
   # TODO: content type (20KB)
   # TODO: content length (jpeg/gif/png)
 
