@@ -13,6 +13,8 @@ get '/v1/image.json' do
 
   return not_found unless params[:url]
 
+  content_type :json
+
   conn = Faraday::Connection.new
   response = conn.get params[:url]
 
